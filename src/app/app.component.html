@@ -1,0 +1,35 @@
+<div class="container text-center mt-5">
+  <h1 class="display-4 mb-4">String Calculator</h1>
+
+  <div class="result-section">
+    <div class="result-item">
+      <h4 class="input-label">Input: ""</h4>
+      <div class="output-value">Output: {{ resultEmpty }}</div>
+    </div>
+
+    <div class="result-item">
+      <h4 class="input-label">Input: "1"</h4>
+      <div class="output-value">Output: {{ resultSingle }}</div>
+    </div>
+
+    <div class="result-item">
+      <h4 class="input-label">Input: "1,5"</h4>
+      <div class="output-value">Output: {{ resultComma }}</div>
+    </div>
+
+    <div class="result-item">
+      <h4 class="input-label">Input: "1\n2,3"</h4>
+      <div class="output-value">Output: {{ resultNewLine }}</div>
+    </div>
+
+    <div class="result-item">
+      <h4 class="input-label">Input: "//;\n1;2"</h4>
+      <div class="output-value">Output: {{ resultCustomDelimiter }}</div>
+    </div>
+
+    <div class="result-item">
+      <h4 class="input-label">Input: "1,-2,-3"</h4>
+      <div class="output-value">Output: {{ resultNegative }}</div>
+    </div>
+  </div>
+</div>

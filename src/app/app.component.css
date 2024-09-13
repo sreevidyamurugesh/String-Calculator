@@ -1,0 +1,32 @@
+/* app.component.css */
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.result-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.result-item {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.input-label {
+    font-size: 1.25rem;
+    color: #495057;
+    margin-bottom: 10px;
+}
+
+.output-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
